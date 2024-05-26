@@ -1,0 +1,18 @@
+name: book-josephjang
+channels:
+  - pytorch
+  - defaults
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10
+  #- cudatoolkit=11.3
+  #- pytorch-scatter
+  - pip
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - git-lfs
+  - libsndfile
+  - pip:
+      - -r requirements-josephjang.txt
